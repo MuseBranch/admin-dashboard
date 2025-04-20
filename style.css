@@ -51,5 +51,32 @@ h1 {
 }
 
 .projects {
+    display: grid;
+    grid-template-rows: 30px repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 15px;
     grid-row: 1 / 3;
+}
+
+.projects p {
+    grid-column: 1 / 3;
+}
+
+.projects p,
+.announcements p,
+.trending p {
+    font-weight: bold;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: 30px repeat(3, 1fr);
+    padding: 15px;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 30px repeat(3, 1fr);
+    padding: 15px;
 }
