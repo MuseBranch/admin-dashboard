@@ -7,7 +7,28 @@ body {
 }
 
 .header {
-    background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+}
+
+.lower-section {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.lower-section button {
+    height: 35px;
+    background-color:rgb(70, 191, 239);
+    border-style: none;
+    border-radius: 20px;
+    flex: 1;
+    align-self: center;
+}
+
+.lower-section .greeting {
+    flex: 5;
 }
 
 .sidebar {
