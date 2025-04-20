@@ -32,9 +32,14 @@ body {
 }
 
 .sidebar {
+    padding: 15px;
     background-color: rgb(70, 191, 239);
     grid-row: 1 / 3;
     grid-column: 1 / 2;
+}
+
+h1 {
+    margin: 0; 
 }
 
 .main-container {
