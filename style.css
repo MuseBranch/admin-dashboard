@@ -4,6 +4,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 4.5fr;
     grid-template-columns: 1fr 4fr;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -43,5 +44,12 @@ h1 {
 }
 
 .main-container {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: lightgray;
+}
+
+.projects {
+    grid-row: 1 / 3;
 }
