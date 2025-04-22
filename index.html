@@ -9,15 +9,24 @@
 <body>
     <div class="header">
         <div class="upper-section">
-            <div class="search-bar"></div>
-            <button class="notification"></button>
-            <div class="profile"></div>
+            <form role="search">
+                <input type="search" name="q" placeholder="Search..." aria-label="Search">
+            </form>
+            <div class="profile">
+                <button class="notification">
+                    <img src="images/bell-ring.svg" alt="Icon" width="20" height="20">
+                </button>
+                <div class="profile-pic">🐸</div>
+                <strong>Morgan Oakley</strong>
+            </div>
         </div>
         <div class="lower-section">
             <div class="greeting">
-                <img src="" alt="">
-                <p>Hi there,</p>
-                <p>Morgan Oakley (@morgan)</p>
+                <div class="profile-pic">🐸</div>
+                <div class="profile-text">
+                    <strong>Hi there,</strong>
+                    <strong>Morgan Oakley (@morgan)</strong>
+                </div>
             </div>
             <button>New</button>
             <button>Upload</button>
