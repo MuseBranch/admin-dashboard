@@ -114,6 +114,13 @@ h1 {
 .sidebar ul li {
   list-style: none;
 }
+
+li img {
+    height: 20px;
+
+}
+
+
 .main-container {
   display: grid;
   grid-template-columns: 2.5fr 1fr;
