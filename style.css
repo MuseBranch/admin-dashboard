@@ -111,8 +111,48 @@ h1 {
   margin: 0;
 }
 
+/*SIDEBAR*/
+
+.sidebar {
+  display: grid;
+  grid-template-rows: 40px 40vh 50vh;
+}
+
+.sidebar h1 {
+  line-height: 1.3;
+}
+
+.sidebar-title {
+  display: flex;
+}
+
+.sidebar-title img {
+  height: 40px;
+}
+
+.sidebar ul {
+  padding: 0;
+  padding-left: 5px;
+}
+
 .sidebar ul li {
+  display: flex;
+  gap: 15px;
   list-style: none;
+  align-items: center;
+}
+
+.sidebar ul li p {
+  margin: 0;
+}
+
+.sidebar svg {
+  fill: white;
+  stroke: white;
+}
+
+.sidebar li {
+  margin: 20px 0;
 }
 
 li img {
