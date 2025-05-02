@@ -12,6 +12,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER */
+
 .header {
   display: grid;
   grid-template-rows: 1fr 1.5fr;
@@ -32,7 +34,23 @@ form input {
 }
 
 form {
+  display: flex;
   align-self: center;
+  align-items: center;
+  gap: 15px;
+}
+
+form img {
+  height: 25px;
+}
+
+form input {
+  width: 500px;
+  padding: 0 15px;
+}
+
+.upper-section {
+  margin-top: 15px;
 }
 
 .upper-section button {
@@ -77,6 +95,7 @@ form {
 
 .profile-pic {
   width: 50px;
+  min-width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: #ead3ba;
