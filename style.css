@@ -91,6 +91,7 @@ form input {
   flex: 5;
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .profile-pic {
@@ -100,9 +101,9 @@ form input {
   border-radius: 50%;
   background-color: #ead3ba;
   display: flex;
-  align-items: center;
   justify-content: center;
   font-size: 30px;
+  line-height: 1.7;
 }
 
 .profile-text {
@@ -179,6 +180,7 @@ li img {
 
 }
 
+/* MAIN CONTAINER */
 
 .main-container {
   display: grid;
@@ -196,6 +198,23 @@ li img {
   gap: 15px;
   padding: 15px;
   grid-row: 1 / 3;
+}
+
+.project-card p {
+  grid-row: 2 / 3;
+}
+
+.icon-bar {
+  display: flex;
+  justify-items: end;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.card-icon {
+  height: 25px;
+  grid-row: 3 / 4;
 }
 
 h2 {
@@ -222,10 +241,12 @@ h2 {
 }
 
 .projects .project-card {
+  display: grid;
   background-color: white;
   border-radius: 8px;
   border-left: 8px solid rgb(250, 184, 30);
   padding: 15px;
+  grid-template-rows: 25px 1fr 40px;
 }
 
 .announcements {
