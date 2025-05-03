@@ -106,6 +106,14 @@ form input {
   line-height: 1.7;
 }
 
+.greeting .profile-pic {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  font-size: 35px;
+  line-height: 1.8;
+}
+
 .profile-text {
     display: grid;
     align-items: center;
