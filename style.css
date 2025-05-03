@@ -212,12 +212,27 @@ li img {
   grid-row: 2 / 3;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .icon-bar {
   display: flex;
   justify-items: end;
   align-items: center;
   justify-content: end;
   gap: 10px;
+}
+
+.icon-bar .button {
+  padding: 0;
+  border-style: none;
+  background-color: white;
+}
+
+.button:hover {
+  color: var(--main-color);
 }
 
 .card-icon {
